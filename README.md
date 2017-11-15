@@ -1,4 +1,4 @@
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/dirkschumacher/rpicosat?branch=master&svg=true)](https://ci.appveyor.com/project/dirkschumacher/rpicosat) [![Travis-CI Build Status](https://travis-ci.org/dirkschumacher/rpicosat.svg?branch=master)](https://travis-ci.org/dirkschumacher/rpicosat) [![Coverage Status](https://img.shields.io/codecov/c/github/dirkschumacher/rpicosat/master.svg)](https://codecov.io/github/dirkschumacher/rpicosat?branch=master) [![CRAN Status](http://www.r-pkg.org/badges/version/rpicosat)](http://www.r-pkg.org/badges/version/rpicosat)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/dirkschumacher/rpicosat?branch=master&svg=true)](https://ci.appveyor.com/project/dirkschumacher/rpicosat) [![Travis-CI Build Status](https://travis-ci.org/dirkschumacher/rpicosat.svg?branch=master)](https://travis-ci.org/dirkschumacher/rpicosat) [![Coverage Status](https://img.shields.io/codecov/c/github/dirkschumacher/rpicosat/master.svg)](https://codecov.io/github/dirkschumacher/rpicosat?branch=master) [![CRAN Status](http://www.r-pkg.org/badges/version/rpicosat)](https://CRAN.R-project.org/package=rpicosat)
 
 rpicosat
 ========
@@ -8,8 +8,16 @@ R bindings to the [PicoSAT solver release 965](http://fmv.jku.at/picosat/) by Ar
 Install
 -------
 
+### Install development version
+
 ``` r
 devtools::install_github("dirkschumacher/rpicosat")
+```
+
+### Install stable version from CRAN
+
+``` r
+install.packages("rpicosat")
 ```
 
 API
@@ -96,7 +104,7 @@ Tests
 
 ``` r
 covr::package_coverage()
-#> rpicosat Coverage: 39.40%
+#> rpicosat Coverage: 39.09%
 #> src/picosat.c: 37.41%
 #> R/rpicosat.R: 80.00%
 #> src/init.c: 100.00%

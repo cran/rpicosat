@@ -1,9 +1,9 @@
-bd4b947225bfe657323eb7a02888dea2 *DESCRIPTION
+8fd15f6a2bfdf8ee45fc52a7395016e6 *DESCRIPTION
 fd8b509d4d654a5d6b1d9cd0365c919d *LICENSE
 156d055573333379f517edd9d13b119f *NAMESPACE
-24885a831b2452e0d571aca766362990 *NEWS.md
+0297aa888b6a5a65d72a0c60a5b8c7e0 *NEWS.md
 2e2aed74214ab05d921c55eadd81f551 *R/rpicosat.R
-de42efa777f89a43631dc8e78faab888 *README.md
+c72f0972a2c3a6ce72a5fe5e9fda9af8 *README.md
 57292633db728fdd276c0a62c8727e38 *man/picosat_added_original_clauses.Rd
 0c9ff621ae686d3ca809f35d8fc5ba55 *man/picosat_decisions.Rd
 a271c44007b29c23128aa7d496aa8f87 *man/picosat_propagations.Rd
@@ -16,7 +16,7 @@ da975f995fc5f2ef57170b3d3ba53178 *src/Makevars.win
 3f8fb6415e9b6a897da8abf434998e2d *src/init.c
 55d669cbbbfd0aab0de44f3858ca0506 *src/picosat.c
 9c821984c00039c3afad7cd1172b010a *src/picosat.h
-a279b5d1457243865ab252d31b903bd4 *src/r_picosat.c
+ac41ffdb57f9694cb8213deac7a2a77a *src/r_picosat.c
 cc7424de0bd6134cca23f3d6fe7b8227 *src/r_picosat.h
 29d41c85e4f520649c2f316f1adcca3d *tests/testthat.R
 e9b125d401dd23f9eb15884a5dd1210f *tests/testthat/test-solver.R
